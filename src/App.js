@@ -3,7 +3,7 @@ import Web3 from "web3";
 
 const web3 = new Web3(Web3.givenProvider);
 
-const DAO_ADDRESS = "0xF2486518c6dC9C4EBA4e10f5884505Cea2A6d6Af"; // replace with the actual contract address
+const DAO_ADDRESS = "0xF2486518c6dC9C4EBA4e10f5884505Cea2A6d6Af"; 
 const DAO_ABI = [
   {
     "inputs": [],
