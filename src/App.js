@@ -250,6 +250,7 @@ function App() {
     const daoContract = new web3.eth.Contract(DAO_ABI, DAO_ADDRESS);
     await daoContract.methods.approveMembership(memberAddress).send({ from: account });
   };
+  
 
   const handleCloseProposal = async (proposalIndex) => {
     const daoContract = new web3.eth.Contract(DAO_ABI, DAO_ADDRESS);
